@@ -1,10 +1,13 @@
-import './App.css';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import Inicio from './components/views/Inicio'
 
 function App() {
   return (
-    <div className="App">
-      
-    </div>
+    <BrowserRouter>
+    <Routes>
+    <Route exaple path='/' element={<Inicio></Inicio>}></Route>
+    </Routes>
+    </BrowserRouter>
   );
 }
 
