@@ -1,17 +1,25 @@
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import "bootstrap/dist/css/bootstrap.min.css";
 import "./App.css";
-import Inicio from './components/views/Landing/Inicio'
 import Navegacion from './components/common/Navegacion';
+import Presentacion from './components/views/ParteSuperior/Presentacion';
+import CardProyectos from './components/views/ParteMedia/CardProyectos';
+import AboutMe from './components/views/ParteInferior/AboutMe';
+import Habilidades from './components/views/ParteInferior/Habilidades';
+import Contant from './components/common/Contant';
+import Footer from './components/common/Footer';
 
 
 function App() {
   return (
-    <BrowserRouter>
+    <div>
     <Navegacion></Navegacion>
-    <Routes>
-    <Route exaple path='/inicio' element={<Inicio></Inicio>}></Route>
-    </Routes>
-    </BrowserRouter>
+    <Presentacion></Presentacion>
+    <CardProyectos></CardProyectos>
+    <AboutMe></AboutMe>
+    <Habilidades></Habilidades>
+    <Contant></Contant>
+    <Footer></Footer>
+    </div>
   );
 }
 

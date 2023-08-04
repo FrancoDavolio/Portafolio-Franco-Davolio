@@ -1,0 +1,33 @@
+header {
+  background: none;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  z-index: 100;
+}
+
+nav {
+  float: left;
+}
+
+nav ul {
+  list-style: none;
+  overflow: hidden;
+}
+
+nav ul li {
+  float: left;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 40px;
+}
+
+nav ul li a {
+  display: block;
+  padding-left: 30px;
+  padding-right: 30px;
+  color: #fff;
+  text-decoration: none;
+}
+

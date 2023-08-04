@@ -10,6 +10,7 @@
 			background-size: 400% 400%;
 			position: relative;
 			animation: cambiar 10s ease-in-out infinite;
+			z-index: -1;
 		}
 		@keyframes cambiar{
 			0%{background-position: 0 50%;}
