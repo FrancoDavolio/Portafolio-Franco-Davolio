@@ -11,14 +11,22 @@ import Footer from './components/common/Footer';
 
 function App() {
   return (
-    <div>
-    <Navegacion></Navegacion>
-    <Presentacion></Presentacion>
-    <CardProyectos></CardProyectos>
-    <AboutMe></AboutMe>
-    <Habilidades></Habilidades>
-    <Contant></Contant>
-    <Footer></Footer>
+    <div className="app-container">
+
+    <div><Navegacion></Navegacion></div>
+    
+    <div><Presentacion></Presentacion></div>
+    
+    <div><CardProyectos></CardProyectos></div>
+    
+    <div><AboutMe></AboutMe></div>
+    
+    <div><Habilidades></Habilidades></div>
+    
+    <div><Contant></Contant></div>
+    
+    <div><Footer></Footer></div>
+    
     </div>
   );
 }

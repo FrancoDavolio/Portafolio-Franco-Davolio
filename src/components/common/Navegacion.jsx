@@ -1,8 +1,10 @@
 import React from "react";
-import "./Navegacion.css";
+import "./Nav.css";
 
 const Navegacion = () => {
   return (
+    <>
+    <div className="inicio"></div>
     <header>
       <svg
         xmlns="http://www.w3.org/2000/svg"
@@ -15,17 +17,19 @@ const Navegacion = () => {
       <nav>
         <ul>
           <li>
-            <a href="">Work</a>
+            <a href="https://developer.mozilla.org/es/">Work</a>
           </li>
           <li>
-            <a href="">About</a>
+            <a href="https://developer.mozilla.org/es/">About</a>
           </li>
           <li>
-            <a href="">Contant</a>
+            <a href="https://developer.mozilla.org/es/">Contant</a>
           </li>
         </ul>
       </nav>
     </header>
+    </>
+       
   );
 };
 
